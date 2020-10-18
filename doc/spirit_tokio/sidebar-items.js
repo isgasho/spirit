@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["either","Support for alternative choices of configuration."],["handlers","Handlers of connections and sockets."],["installer","Installer of futures."],["net","Autoconfiguration of network primitives of [tokio]"],["runtime","An extension to start the tokio runtime at the appropriate time."]]});

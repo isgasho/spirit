@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["HandleListener","A handler newtype to handle each separate connection."],["HandleListenerInit","A handler of incoming connections with per-listener initialization."],["HandleSocket","A [`Transformation`] to handle the whole socket."]]});

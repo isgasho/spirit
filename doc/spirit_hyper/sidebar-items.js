@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Activate","A plumbing helper type."],["BuildServer","A [`Transformation`] to turn a [`Builder`] into a [`Server`]."],["HyperServer","A [`Fragment`] for hyper servers."]],"type":[["HttpServer","A type alias for http (plain TCP) hyper server."]]});

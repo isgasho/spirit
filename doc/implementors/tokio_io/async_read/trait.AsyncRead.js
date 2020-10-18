@@ -1,0 +1,9 @@
+(function() {var implementors = {};
+implementors["hyper"] = [{"text":"impl AsyncRead for AddrStream","synthetic":false,"types":[]},{"text":"impl AsyncRead for Upgraded","synthetic":false,"types":[]}];
+implementors["hyper_tls"] = [{"text":"impl&lt;T:&nbsp;AsyncRead + AsyncWrite&gt; AsyncRead for MaybeHttpsStream&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;AsyncRead + AsyncWrite&gt; AsyncRead for TlsStream&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["spirit_tokio"] = [{"text":"impl&lt;A:&nbsp;AsyncRead, B:&nbsp;AsyncRead&gt; AsyncRead for Either&lt;A, B&gt;","synthetic":false,"types":[]},{"text":"impl&lt;I:&nbsp;AsyncRead&gt; AsyncRead for LimitedConn&lt;I&gt;","synthetic":false,"types":[]}];
+implementors["tokio_fs"] = [{"text":"impl AsyncRead for File","synthetic":false,"types":[]},{"text":"impl AsyncRead for Stdin","synthetic":false,"types":[]}];
+implementors["tokio_reactor"] = [{"text":"impl&lt;E&gt; AsyncRead for PollEvented&lt;E&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;E: Evented + Read,&nbsp;</span>","synthetic":false,"types":[]},{"text":"impl&lt;'a, E&gt; AsyncRead for &amp;'a PollEvented&lt;E&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;E: Evented,<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;'a E: Read,&nbsp;</span>","synthetic":false,"types":[]}];
+implementors["tokio_tcp"] = [{"text":"impl AsyncRead for TcpStream","synthetic":false,"types":[]},{"text":"impl&lt;'a&gt; AsyncRead for &amp;'a TcpStream","synthetic":false,"types":[]}];
+implementors["tokio_uds"] = [{"text":"impl AsyncRead for UnixStream","synthetic":false,"types":[]},{"text":"impl&lt;'a&gt; AsyncRead for &amp;'a UnixStream","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

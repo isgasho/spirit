@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["futures","The support for async clients."]],"struct":[["ReqwestClient","A configuration fragment to configure the reqwest [`Client`]"]]});

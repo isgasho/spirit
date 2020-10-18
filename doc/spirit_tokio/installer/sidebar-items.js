@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["FutureInstaller","An [`Installer`] of [`Future`]s."],["RemoteDrop","An `UninstallHandle` for the [`FutureInstaller`]."]]});
